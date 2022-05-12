@@ -1,0 +1,50 @@
+{
+	"name"        : "prunderground/wordpress-starter",
+	"description" : "prunderground's wordpress interview starter",
+	"type"        : "project",
+	"license"     : "MIT",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"repositories": [
+		{
+			"type": "composer",
+			"url" : "https://wpackagist.org"
+		}
+	],
+	"require"     : {
+		"php": "^7.4 || ^8.0",
+		"illuminate/support": "^8.83",
+		"prunderground/wordpress-core": "@stable",
+		"prunderground/wordpress-core-installer": "^2.0",
+		"prunderground/wp-cli-phar": "^2.6",
+		"laravel/helpers": "^1.5",
+		"vlucas/phpdotenv": "^5.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"Prunderground\\WordPressProject\\Scripts\\": "./scripts"
+		}
+	},
+	"extra"       : {
+		"wordpress-install-dir": "public/wp",
+		"installer-paths"      : {
+			"public/content/plugins/{$name}"   : ["type:wordpress-plugin"],
+			"public/content/mu-plugins/{$name}": ["type:wordpress-muplugin"],
+			"public/content/themes/{$name}"    : ["type:wordpress-theme"]
+		}
+	},
+	"config": {
+		"sort-packages": true,
+		"allow-plugins": {
+			"prunderground/wordpress-core-installer": true
+		}
+	},
+	"scripts": {
+		"post-root-package-install": [
+			"@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+		],
+		"post-create-project-cmd": [
+			"Prunderground\\WordPressProject\\Scripts\\GenerateKeysAndSalts::run"
+		]
+	}
+}
