@@ -25,6 +25,6 @@ This will create the project in the `[YOUR-NAME]-assessment` directory. The proj
 6. Rename `wp-config-sample.php` inside `[YOUR-NAME]-assessment/public/wp` to `wp-config.php`
 7. Install MySQL locally and create a new database
 8. Edit wp-config.php and modify DB_NAME to point to the DB you create in step 7, DB_USER is your MySQL user, DB_PASSWORD is your MySQL password, DB_HOST can be localhost
-9. Start the PHP development server `php -S localhost:8080`
+9. Start the PHP development server: `php -S localhost:8080`. You have to do this within `[YOUR-NAME]-assessment/public/wp`
 
 Here's are the tasks we'd like you to complete:
