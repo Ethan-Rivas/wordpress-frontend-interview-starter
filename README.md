@@ -1,6 +1,18 @@
-# WordPress Project
+## PRUnderground Frontend Assessment
 
-This is a WordPress starter project for use with Composer. I'll add more documentation when I can, but it's based heavily off of Mark Jaquith's [WordPress Skeleton](https://github.com/markjaquith/WordPress-Skeleton) project. To get started using it, just use the `create-project` composer command:
+If you've made it here, we're really excited about potentially working with you!
+This assessment is to gauge your ability to:
+
+- Familiarity with Git workflows (clones, commits, pull requests, etc.)
+- Quickly get up and running in a new codebase
+- Turn requirements into code changes
+- Create custom plugins to accomplish common frontend tasks.
+
+## Getting Started
+
+1. Clone this repo
+2. Install Composer: https://docs.platform.sh/guides/wordpress/composer.html
+3. Create your project
 
 ```
 composer create-project johnpbloch/wordpress-project [YOUR-NAME]-assessment 1.0.2
@@ -10,6 +22,6 @@ This will create the project in the `[YOUR-NAME]-assessment` directory. The proj
 
 Site configuration is in the `.env` file. If you want to define a constant there, prefix the constant name with `WPC_`.
 
-## License
+4. get the project running locally.
 
-MIT
+Here's are the tasks we'd like you to complete:
