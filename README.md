@@ -44,5 +44,6 @@ This modal should follow the user’s viewpoint consistently positioned in the m
 * Once signup is clicked close the modal 
 * Don’t show the modal again on page refresh after the user has already submitted the form
 * Include a shadow behind the modal
+* Make sure the modal is visible in all pages after the plugin is activated
 
 Please don’t install any libraries
