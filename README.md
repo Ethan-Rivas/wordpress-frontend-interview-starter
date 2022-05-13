@@ -10,7 +10,7 @@ This assessment is to gauge your ability to:
 
 ## Installation
 
-1. Use this repo as template, and add "beeze" and "eczeki" as collaborators in your new project, so we can see your work :D 
+1. Use this repo as template, and add "beeze" and "eczeki" as collaborators in your new project.
 2. Install Composer: https://getcomposer.org/download/
 3. Create your project
 
@@ -46,4 +46,6 @@ This modal should follow the user’s viewpoint consistently positioned in the m
 * Include a shadow behind the modal
 * Make sure the modal is visible in all pages after the plugin is activated
 
-Please don’t install any libraries
+Please don’t install any libraries.
+
+Also note that your use of git commits and version control will be included in our assessment of your work.
