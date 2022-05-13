@@ -10,7 +10,7 @@ This assessment is to gauge your ability to:
 
 ## Installation
 
-1. Clone this repo
+1. Use this repo as template, and add "beeze" and "eczeki" as collaborators in your new project, so we can see your work :D 
 2. Install Composer: https://getcomposer.org/download/
 3. Create your project
 
