@@ -15,6 +15,7 @@ public/content/mu-plugins/*
 # version control, add an exception here. Exceptions will look like this:
 #   !public/content/plugins/plugin-folder
 !public/content/plugins/index.php
+!public/content/plugins/pru-newsletter
 !public/content/themes/index.php
 !public/content/mu-plugins/index.php
 !public/content/mu-plugins/register-theme-directory.php
